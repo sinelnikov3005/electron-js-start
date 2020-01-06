@@ -1,0 +1,27 @@
+:root{
+    --color1: red;
+    --color2: green;
+    --color3: blue;
+    --colorb: black;
+    --colorw: white;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorb);
+}
+
+h1{
+    color: var(--color1);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorw);
+}
